@@ -2,6 +2,7 @@ const rand = (min, max) => {
   if ((!min && !max) || isNaN(min) || isNaN(max)) {
     return 0;
   }
+
   if (max == null) {
     max = min;
     min = 0;
